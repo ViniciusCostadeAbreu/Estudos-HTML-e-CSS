@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(223, 83, 83, 0.527);
+    font: normal 16px arial, helvetica, sans-serif
+}
+
+h1{
+    color: brown;
+}
+
+h1#principal{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: brown;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
