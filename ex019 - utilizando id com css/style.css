@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgba(223, 83, 83, 0.527);
+    background-color: #5f9ea0a2;
     font: normal 16px arial, helvetica, sans-serif
 }
 
@@ -22,4 +22,22 @@ h2{
 p{
     text-align: justify;
     text-indent: 30px;
+}
+
+.primeiro{
+    color: #008000;
+}
+
+.segundo{
+    color: #ffff00;
+}
+
+.terceiro {
+    color: #ff0000;
+}
+
+.titulos{
+    text-align: center;
+    color: #ffffff;
+    background-color: brown;
 }
