@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font: normal 1em arial, helvetica, sans-serif
+}
+
+a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred; 
+    /*Essa pseudo-Classe serve para indicar com outra cor o site que ja foi visitado*/
+    /*Caso o site ja tenha sido visitado antes ele inicia nessa cor pelo cache do seu navegador*/
+}
+
+a:hover {
+    text-decoration: underline;
+    /*Essa pseudo-classe irá colocar um sublinhado sobre o link quando voce passar o mouse*/
+}
+
+.especial:hover { /*essa pseudo-classe foi usada para ser exibida quando passar o mouse sobre o link com essa classe*/
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+.especial::before { /*Esse pseudo-elemento adiciona elementos a classe antes (no inicio)*/
+    content: '>> ';
+    font-weight: lighter;
+}
+
+.especial::after { /*Esse pseudo-elemento adiciona elementos a classe depois (no final)*/
+    content: ' <<';
+    font-weight: lighter;
+}
