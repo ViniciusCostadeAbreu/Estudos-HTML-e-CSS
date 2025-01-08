@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #  s= id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        .especial{
+            background-color: rgb(132, 241, 241);
+        }
+
+        .especial::before{
+            content: '⇒ ';
+        }
+
+        .especial::after{
+            content: ' ⇐';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exibição de links</h1>
+    <ul>
+        <li><a href="https://github.com/ViniciusCostadeAbreu?tab=repositories" target="_blank" class="especial">Repositorio github</a></li>
+        <li><a href="http://www.youtube.com/cursoemvideo/" target="_blank">Canal do Youtube</a></li>
+        <li><a href="http://www.cursoemvideo.com" target="_blank">Site curso em video</a></li>
+    </ul>
+</body>
+</html>
