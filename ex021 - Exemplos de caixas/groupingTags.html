@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgb(250, 250, 196);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(139, 26, 26);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: rgb(177, 83, 16);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        aside{
+            background-color: rgb(139, 26, 26);
+            padding: 0.5px;
+        }
+
+        article > aside:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping Tags do meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Usando grouping Tags</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis consequatur blanditiis minus doloribus! Commodi inventore quia iure obcaecati incidunt maiores dicta atque harum id. Aut quibusdam minus ex ratione fugit.</p>
+                <aside>
+                    <p>artigo escrito por Vinicius</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Vinicius</p>
+    </footer>
+</body>
+</html>
