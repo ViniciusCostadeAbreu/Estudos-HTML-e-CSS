@@ -22,6 +22,15 @@ p{
     margin: 0px;
 }
 
+#p-footer{
+    margin-top: 10px;
+    padding: 0px;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #1A5C38;
+}
+
 .imagem{
     text-align: center;
     width: 100%;
@@ -55,6 +64,7 @@ h1{
     margin: 0px;
     color: #1A5C38;
     padding: 10px;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 #h1-header{
@@ -74,6 +84,7 @@ h2{
     background-image:linear-gradient(to right, #D1EFDE, #E9F7EF, #FAFDFC);
     /*padding: 10px;*/
     color: #1A5C38;
+    text-shadow: 0.5px 0.5px 1px black;
 }
 
 h3{
@@ -103,6 +114,7 @@ h3{
     background-color: aliceblue;
     margin: 0px 274.5px;
     padding: 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 #final-main{
