@@ -49,6 +49,11 @@ nav{
 }
 
 main{
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
     background-color: white;
 }
 
@@ -60,6 +65,16 @@ main h1 {
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor5);
+}
+
+main img{
+    width: 100%;
+}
+
+main img.bugdroid{
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 footer{
