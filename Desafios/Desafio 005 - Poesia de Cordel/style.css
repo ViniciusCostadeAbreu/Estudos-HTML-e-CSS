@@ -31,11 +31,9 @@ header>p>a{
     color: white;
 }
 
-section#section1{
-    background-color: purple;
-    background-size: 100% 100%;
-    position: relative;
-    height: 400px;
+main{
+    max-width: 500px;
+    margin: auto;
 }
 
 .artigosbranco{
@@ -44,10 +42,35 @@ section#section1{
     margin: auto;
     background-size: 100% 100%;
     position: absolute;
-    background-color: rgba(255, 255, 0, 0.336);
+    top: 20%;
+}
+
+.artigosopaco{
+    font-family: 'Sriracha', sans-serif;
+    font-size: 1.3em;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.349);
+    background-size: 100% 100%;
+    color: white;
+    position: absolute;
     top: 15%;
 }
 
 article{
     padding: 10px;
+}
+
+section#section1{
+    background-color: white;
+    position: relative;
+    height: 450px;
+}
+
+
+section#section2{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-position: right bottom;
+    position: relative;
+    height: 400px;
 }
