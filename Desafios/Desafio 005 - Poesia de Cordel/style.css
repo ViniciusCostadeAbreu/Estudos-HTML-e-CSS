@@ -32,45 +32,54 @@ header>p>a{
 }
 
 main{
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
+    border: 1px solid black;
+    border-top: none;
 }
 
 .artigosbranco{
     font-family: 'Sriracha', sans-serif;
-    font-size: 1.3em;
-    margin: auto;
+    font-size: 1.1em;
     background-size: 100% 100%;
-    position: absolute;
-    top: 20%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+   
 }
 
 .artigosopaco{
     font-family: 'Sriracha', sans-serif;
-    font-size: 1.3em;
-    margin: auto;
+    font-size: 1.1em;
     background-color: rgba(0, 0, 0, 0.349);
     background-size: 100% 100%;
     color: white;
     position: absolute;
-    top: 15%;
+    top: 11.5%;
+    
 }
 
 article{
     padding: 10px;
 }
 
-section#section1{
-    background-color: white;
-    position: relative;
-    height: 450px;
-}
-
 
 section#section2{
     background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
     background-size: cover;
-    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-position: top right;
     position: relative;
-    height: 400px;
+    height: 500px;
+    box-shadow:  0px -2px 4px 0px black;
+}
+section#section4{
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+    height: 500px;
+    box-shadow:  0px -0.5px 4px 0px black;
 }
