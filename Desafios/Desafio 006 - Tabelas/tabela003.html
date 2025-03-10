@@ -16,14 +16,21 @@
             font-size: 2em;
             background-color: chartreuse;
         }
-        td, th, tr{
+        td,th,tr{
             border: 1px solid black;
             padding: 10px;
             text-align: center;
         }
-        thead{
-            background-color: lightgray;
+        thead, .notamedia{
+            background-color: gray;
+            color: white;
         }
+        .media{
+            text-align: left;
+            background-color: gray;
+            color: white;
+        }
+        
     </style>
 </head>
 <body>
@@ -45,7 +52,55 @@
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
 
+            <tr>
+                <th colspan="4" class="media">Media Exatas</th>
+                <th class="notamedia">0.0</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="media">Media Humanas</th>
+                <th class="notamedia">0.0</th>
+            </tr>
         </tbody>
     </table>
 </body>
