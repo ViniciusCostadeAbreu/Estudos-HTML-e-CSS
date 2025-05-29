@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Estilo para Impressora */
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h{
+    background-color: darkgreen;
+    color: white;
+}
+
+menu{
+    display: none;
+}
+
+main{
+    width: 100%;
+    text-align: right;
+}
+
+article::after{
+    content: 'Informação retirada de www.teste.com.br';
+}
