@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.container{
+    display: grid;
+    height: 400px;
+    grid-template: 2fr 1fr 5fr 1fr / 1fr 3fr 1fr;
+    gap: 5px;
+}
+
+.caixa1{
+    background-color: brown;
+    grid-area: 1 / 1 / 2 / 4;
+}
+.caixa2{
+    background-color: cadetblue;
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+.caixa3{
+    background-color: chartreuse;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+}
+.caixa4{
+    background-color: blueviolet;
+    grid-area: 3 / 3 / span 1 / span 1;
+}
+.caixa5{
+    background-color: crimson;
+    grid-area: 4 / 1 / -1 / span 3;
+}
